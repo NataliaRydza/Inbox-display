@@ -1,0 +1,17 @@
+html, body {
+  background-color: rgb(250, 245, 240);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  padding: 10px;
+}
+
+h1 {
+  padding-left: 5px;
+}

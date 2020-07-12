@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inbox</title>
+  </head>
+  <body>
+    <h1>Inbox</h1>
+    <div class="messageDetails">
+      <template id="inboxMessage">
+        <div class="message">
+          <span class="message_sender">Odosielatel spravy je {{sender}}.</span>
+          <span class="message_subject">Predmetom spravy je: {{subject}}.</span>
+          <span class="message_date_time"
+            >Sprava bola odoslana dna {{date}} o {{time}}.</span
+          >
+        </div>
+      </template>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
